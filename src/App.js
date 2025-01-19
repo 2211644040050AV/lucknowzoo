@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from './GlobalComponents/Banner/Banner';
 import MsgText from './GlobalComponents/MsgText/MsgText';
 import NavigationMenu from './GlobalComponents/NavigationMenu/NavigationMenu';
-import TopButton from './GlobalComponents/TopButton/TopButton';
+// import TopButton from './GlobalComponents/TopButton/TopButton';
 
 function App() {
   return (
