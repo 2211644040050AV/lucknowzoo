@@ -9,10 +9,10 @@
     background: url(../img/Main-Background.jpeg);
     background-repeat: repeat-x;
     background-color: rgb(102, 204, 0);
-    height: 200vh;
 }
 
 .child {
+    background-color: #fff;
     width: 80%;
     margin: 0 auto;
 }
@@ -76,3 +76,32 @@ a.items:hover {
     color: rgb(164, 22, 0);
     background-color: yellow;
 }
+
+/* Home.js */
+.mainheading {
+    color: rgb(189, 30, 30);
+    font-size: 24px;
+    font-family: trebuchet ms;
+    padding: 10px;
+    padding-left: 0px;
+    border-bottom: 2px solid rgb(189, 30, 30);
+    margin: 0 10px 0 10px;
+}
+
+.data-area {
+    margin: 10px 10px 0 10px;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+img.zoo-gate{
+    width: 40%;
+    border-radius: 10px;
+    border:2px solid gray;
+    float: left;
+    margin-right: 10px;
+}
+
+/* NewsAndUpdate.js */
