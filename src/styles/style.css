@@ -5,7 +5,7 @@
 }
 
 /* App.js */
-.Container {
+.container-main {
     background: url(../img/Main-Background.jpeg);
     background-repeat: repeat-x;
     background-color: rgb(102, 204, 0);
@@ -37,7 +37,7 @@
 
 .scroll-text {
     display: inline-block;
-    animation: scroll-left 20s linear infinite;
+    animation: scroll-left 10s linear infinite;
     white-space: nowrap;
     padding-left: 100%;
     color: white;
@@ -57,24 +57,22 @@
 /* NavigationMenu.js */
 .navigation-menu {
     height: 35px;
-    background: linear-gradient(white, rgb(187, 187, 187));
-    vertical-align: middle;
+    background: linear-gradient(rgb(211, 208, 208), rgb(187, 187, 187));    vertical-align: middle;
     text-align: center;
     color: rgb(4, 86, 11);
 }
 
 a.items {
     text-decoration: none;
-    color: rgb(4, 86, 11);
+    color: rgb(8, 64, 12);
     font-family: trebuchet ms;
     font-size: 14px;
     transition: all 0.5s;
 }
 
 a.items:hover {
-    text-decoration: underline;
-    color: rgb(164, 22, 0);
-    background-color: yellow;
+    text-decoration: none;
+    color: rgb(126, 56, 9);
 }
 
 /* Home.js */
