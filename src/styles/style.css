@@ -103,3 +103,43 @@ img.zoo-gate{
 }
 
 /* NewsAndUpdate.js */
+.service-heading{
+    color:rgb(0, 0, 0);
+    font-family: trebuchet ms;
+    font-size: 40px;
+}
+
+.service-heading2{
+    color:rgb(16, 147, 51);
+    font-family: trebuchet ms;
+    font-size: 16px;
+    
+}
+
+.service-heading::after{
+    display: block;
+    content:"";
+    width:100px;
+    height: 3px;
+    background-color:rgb(197, 1, 66);
+    margin:20px auto;
+    
+}
+
+.service-box{
+    padding: 10px;
+    
+}
+
+.tar{text-align: center;}
+
+.pad{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
+}
+
+img.p2{
+    border: 15px solids darkgreen;
+    border-radius: 5px;
+}

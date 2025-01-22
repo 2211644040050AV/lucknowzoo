@@ -2,6 +2,7 @@ import React from "react";
 import ZooGate from "../../img/Zoogate.jpg";
 import NwesAndUpdate from "../../GlobalComponents/NewsAndUpdate/NewsAndUpdate";
 import NewsAndUpdate from "../../GlobalComponents/NewsAndUpdate/NewsAndUpdate";
+import Services from "./Services";
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
           <NewsAndUpdate />
         </div>
       </div>
+      <Services />
     </>
   );
 }
