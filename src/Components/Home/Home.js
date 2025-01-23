@@ -3,6 +3,7 @@ import ZooGate from "../../img/Zoogate.jpg";
 import NwesAndUpdate from "../../GlobalComponents/NewsAndUpdate/NewsAndUpdate";
 import NewsAndUpdate from "../../GlobalComponents/NewsAndUpdate/NewsAndUpdate";
 import Services from "./Services";
+import Footer from "../../GlobalComponents/Footer/Footer";
 
 export default function Home() {
   return (
@@ -56,6 +57,7 @@ export default function Home() {
         </div>
       </div>
       <Services />
+      <Footer />
     </>
   );
 }
